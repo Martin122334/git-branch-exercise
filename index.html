@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerolíneas SkyHigh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Aerolíneas SkyHigh</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#flights">Vuelos</a></li>
+                <li><a href="#book">Reservar</a></li>
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar" id="sidebar">
+            <h2>Enlaces Rápidos</h2>
+            <ul>
+                <li><a href="#destinations">Destinos Populares</a></li>
+                <li><a href="#offers">Ofertas Especiales</a></li>
+                <li><a href="#checkin">Check-in Online</a></li>
+                <li><a href="#status">Estado de Vuelo</a></li>
+                <li><a href="#loyalty">Programa de Lealtad</a></li>
+            </ul>
+        </aside>
+
+        <main>
+            <section id="home">
+                <h2>Bienvenido a Aerolíneas SkyHigh</h2>
+                <p>Tu viaje comienza aquí. Reserva vuelos a los mejores destinos del mundo.</p>
+                <div class="search-form">
+                    <h3>Buscar Vuelos</h3>
+                    <form id="flight-search">
+                        <input type="text" placeholder="Origen" required>
+                        <input type="text" placeholder="Destino" required>
+                        <input type="date" required>
+                        <input type="date" required>
+                        <button type="submit">Buscar</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contacto Actualizado</h3>
+                <p>Teléfono: +1 234 567 999</p>
+                <p>Email: infoplus@skyhighairlines.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces</h3>
+                <ul>
+                    <li><a href="#privacy">Política de Privacidad</a></li>
+                    <li><a href="#terms">Términos y Condiciones</a></li>
+                    <li><a href="#support">Soporte</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <p>Facebook | Twitter | Instagram</p>
+            </div>
+        </div>
+        <p>&copy; 2026 Aerolíneas SkyHigh. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
